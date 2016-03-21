@@ -33,6 +33,8 @@ class ViewController: UIViewController {
         
         dogYearsLabel.text = "\(intFromString) Dog Years"
         dogYearsLabel.hidden = false
+        
+        enterHumanYearsTextField.resignFirstResponder()
     }
     
     @IBAction func convertToRealDogYearsButtonPressed(sender: UIButton) {
