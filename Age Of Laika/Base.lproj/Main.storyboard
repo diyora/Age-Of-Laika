@@ -39,10 +39,10 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="AgeOfLaika" translatesAutoresizingMaskIntoConstraints="NO" id="Qg6-aC-gMP">
                                 <rect key="frame" x="55" y="333" width="265" height="135"/>
                             </imageView>
-                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gSc-h8-IR6">
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gSc-h8-IR6">
                                 <rect key="frame" x="37" y="28" width="250" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
@@ -51,6 +51,7 @@
                             <constraint firstItem="a15-6h-C6U" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="5OC-Vf-0Dv"/>
                             <constraint firstItem="NOg-Av-5md" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Vlr-Dz-xH2"/>
                             <constraint firstItem="n1Q-oE-hmX" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="qWS-Lv-Q9D"/>
+                            <constraint firstItem="gSc-h8-IR6" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="xyX-lP-lGL"/>
                         </constraints>
                     </view>
                     <connections>
